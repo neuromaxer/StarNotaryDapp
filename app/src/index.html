@@ -3,6 +3,7 @@
   <head>
     <title>StarNotary DAPP</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
   </head>
   <style>
     input {
@@ -14,7 +15,14 @@
     <h1>StarNotary Token DAPP</h1>
 
     <hr>
-
+    <br />
+    <h1>Connect to MetaMask to Start Dapp</h1>
+    <br />
+    <button id="connectMetaMask" onclick="App.connectMetaMask()">
+        Connect MM
+    </button>
+    <br />
+    <hr />
     <br>
       <h1>Create a Star</h1>
       <br><label for="starName">Star Name:</label><input type="text" id="starName"></input>
@@ -30,6 +38,6 @@
       <br>
       <span id="status"></span>
       <br>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
