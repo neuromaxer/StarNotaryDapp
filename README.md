@@ -2,6 +2,11 @@
 
 ## Install
 
+Pre-requisites:
+1. `node`, `npm` 
+2. `truffle`
+3. `metamask`
+
 ```
 cd star_notary
 npm install 
